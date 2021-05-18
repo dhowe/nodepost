@@ -1,0 +1,13 @@
+[
+    {
+        "id": 0,
+        "name": "Wingo",
+        "message": "Hello API"
+    },
+    {
+        "id": 1,
+        "name": "Mr.Chan",
+        "message": "Bye Google Map"
+     }
+]
+
