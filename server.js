@@ -24,6 +24,14 @@ app.post('/', (req, res) => {
 
   console.log('POST:', req.body);
 
+  // Handle the id field
+  try { 
+    req.body.id = parseInt(req.body.id);
+  }
+  catch(e) {
+   console.warn('Id is not a number: ',id);
+  }
+  
   // update your json file in memory
   messages.push(req.body);
 
